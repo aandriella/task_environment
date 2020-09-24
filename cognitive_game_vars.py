@@ -43,7 +43,7 @@ class Attention(enum.Enum):
     name = "attention"
     counter = 3
 
-class Robot_Assistance(enum.Enum):
+class Agent_Assistance(enum.Enum):
     lev_0 = 0
     lev_1 = 1
     lev_2 = 2
@@ -53,7 +53,7 @@ class Robot_Assistance(enum.Enum):
     name = "robot_assistance"
     counter = 6
 
-class Robot_Feedback(enum.Enum):
+class Agent_Feedback(enum.Enum):
     yes = 1
     no = 0
     name = "robot_feedback"

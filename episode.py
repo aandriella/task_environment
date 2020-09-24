@@ -74,8 +74,8 @@ class Episode:
         '''
         It returns the episodes related to the saved file
         :param file:
-        :param episode: look at main.py
-        :param sol_per_pop: look at main.py
+        :param episode: look at simulation.py
+        :param sol_per_pop: look at simulation.py
         :return: a list of episodes
         '''
         print("LOADING...")
@@ -167,7 +167,7 @@ class Episode:
 
 def main():
     pass
-    # file_path = "/home/aandriella/Documents/Codes/MY_FRAMEWORK/BN_GenerativeModel/results/1/episodes.npy"
+    # file_path = "/home/aandriella/Documents/Codes/MY_FRAMEWORK/bn_generative_model/results/1/episodes.npy"
     # ep = Episode()
     # episodes = ep.load_episodes(file_path)
     # initial_state = (1, 1, 0)
@@ -187,8 +187,8 @@ def main():
     #                              task_length, n_max_attempt, timeout=0, n_levels_assistance=6)
     # #
     # trans_matrix = ep.generate_statistics(env.states, env.action_space, episodes)
-    # path_trans_matrix_occ = "/home/aandriella/Documents/Codes/MY_FRAMEWORK/BN_GenerativeModel/results/1/trans_matrix_occ.npy"
-    # path_trans_matrix_prob = "/home/aandriella/Documents/Codes/MY_FRAMEWORK/BN_GenerativeModel/results/1/trans_matrix_prob.npy"
+    # path_trans_matrix_occ = "/home/aandriella/Documents/Codes/MY_FRAMEWORK/bn_generative_model/results/1/trans_matrix_occ.npy"
+    # path_trans_matrix_prob = "/home/aandriella/Documents/Codes/MY_FRAMEWORK/bn_generative_model/results/1/trans_matrix_prob.npy"
     # terminal_states = [env.point_to_index(state) for state in final_states]
     #
     #
