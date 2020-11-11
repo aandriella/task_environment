@@ -87,8 +87,8 @@ class Episode:
                 trajs.append(Episode(traj[t]))
                 print("loaded traj ", t)
             f.close()
-        for t in trajs:
-            print(t._t)
+        # for t in trajs:
+        #     print(t._t)
         return trajs
 
 
@@ -97,7 +97,6 @@ class Episode:
         This function computes the state x state x action matrix that
         corresponds to the transition table we will use later
         '''
-        print(state_list)
         n_states = len(state_list)
         n_actions = len(action_space)
 
